@@ -1,1 +1,5 @@
-# my-vanilajs-template
+- Hot-reload when develop (O)
+- TypeScript (O)
+- Test tool (O)
+- JS ES2015 (X)
+- SCSS (X)
