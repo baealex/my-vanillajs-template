@@ -27,6 +27,7 @@ module.exports = {
       template: "templates/index.html"
     }),
   ],
+  target: ['web', 'es5'],
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].[contenthash].js",
