@@ -2,8 +2,8 @@
   "name": "my-vanilajs-template",
   "version": "1.0.0",
   "scripts": {
+    "dev": "webpack-dev-server --mode development --port 3000",
     "build": "webpack --mode production && cp -r ./public/* ./dist",
-    "start": "webpack-dev-server --mode development --port 3000",
     "test": "jest"
   },
   "author": "baealex",
@@ -16,8 +16,12 @@
     "@types/jest": "^27.4.0",
     "babel-jest": "^27.4.5",
     "babel-loader": "^8.2.3",
+    "css-loader": "^6.6.0",
     "html-webpack-plugin": "^5.5.0",
     "jest": "^27.4.5",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.4",
     "webpack": "^5.65.0",

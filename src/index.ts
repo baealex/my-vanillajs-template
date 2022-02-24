@@ -1,8 +1,5 @@
-import { getGreetContent } from './modules/greet';
+import { App } from './App';
 
-const root = document.getElementById('root');
+import './main.scss';
 
-const greet = document.createElement('p');
-greet.textContent = getGreetContent();
-
-root.appendChild(greet);
+new App(document.getElementById('root'));

@@ -1,0 +1,14 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.greet {
+    font-weight: bold;
+    font-size: 28px;
+    color: #474787;
+}
