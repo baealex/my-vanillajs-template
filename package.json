@@ -2,7 +2,7 @@
   "name": "my-vanilajs-template",
   "version": "1.0.0",
   "scripts": {
-    "dev": "webpack-dev-server --mode development --port 3000",
+    "start": "webpack-dev-server --mode development --port 3000",
     "build": "webpack --mode production && cp -r ./public/* ./dist",
     "test": "jest"
   },
