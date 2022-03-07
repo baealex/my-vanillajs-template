@@ -1,5 +1,5 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: "./src/index.ts",
@@ -18,7 +18,28 @@ module.exports = {
         },
       },
       {
-        test: /\.s[ac]ss$/i,
+        test: /\.module\.s[ac]ss$/,
+        use: [
+          "style-loader",
+          {
+            loader: 'css-loader',
+            options: {
+              modules: {
+                localIdentName: '[name]__[local]___[hash:base64:5]',
+              }
+            }
+          },
+          {
+            loader: "sass-loader",
+            options: {
+              implementation: require("node-sass"),
+            },
+          },
+        ],
+      },
+      {
+        test: /\.s[ac]ss$/,
+        exclude: /\.module\.s[ac]ss$/,
         use: [
           "style-loader",
           "css-loader",

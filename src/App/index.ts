@@ -1,11 +1,11 @@
-import './App.scss';
+import style from './App.module.scss';
 
 export function App($app: HTMLElement) {
     this.$app = $app;
 
     $app.innerHTML = `
-        <div class="App">
-            <div class="greet">
+        <div class="${style.App}">
+            <div class="${style.greet}">
                 Hello, My Vanila JS!
             </div>
         </div>
