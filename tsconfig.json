@@ -6,6 +6,7 @@
     "moduleResolution": "node",
   },
   "include": [
-    "src"
-, "declarations.d.ts"  ]
+    "src",
+    "declarations.d.ts"
+  ]
 }

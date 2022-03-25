@@ -6,7 +6,7 @@ export function App($app: HTMLElement) {
     $app.innerHTML = `
         <div class="${style.App}">
             <div class="${style.greet}">
-                Hello, My Vanila JS!
+                Hello, My Vanilla JS!
             </div>
         </div>
     `;
