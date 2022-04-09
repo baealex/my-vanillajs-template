@@ -4,6 +4,8 @@
         "allowJs": true,
         "target": "ES2015",
         "moduleResolution": "node",
+        "baseUrl": "src",
+        "paths": {}
     },
     "include": [
         "src",
