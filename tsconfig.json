@@ -1,7 +1,6 @@
 {
     "compilerOptions": {
         "sourceMap": true,
-        "allowJs": true,
         "target": "ES2015",
         "esModuleInterop": true,
         "moduleResolution": "Node",
@@ -11,5 +10,8 @@
     "include": [
         "src",
         "declarations.d.ts"
+    ],
+    "exclude": [
+        "public",
     ]
 }
