@@ -3,7 +3,8 @@
         "sourceMap": true,
         "allowJs": true,
         "target": "ES2015",
-        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "moduleResolution": "Node",
         "baseUrl": "src",
         "paths": {}
     },
