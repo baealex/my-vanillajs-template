@@ -5,8 +5,7 @@
     "start": "webpack-dev-server --mode development --port 3000",
     "build": "webpack --mode production && cp -r ./public/* ./dist",
     "lint": "eslint",
-    "test": "jest",
-    "watch": "jest --watch"
+    "test": "jest"
   },
   "author": "baealex",
   "license": "MIT",
